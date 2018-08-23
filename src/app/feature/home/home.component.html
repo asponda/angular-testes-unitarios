@@ -1,0 +1,23 @@
+<main>
+  <h1>Testes unitários</h1>
+
+  <section class="card">
+    <h2 *ngIf="!apolices || apolices.length === 0">loading...</h2>
+
+    <div *ngFor="let apolice of apolices">
+      <h3>{{apolice.id_apolice}} {{apolice.nome_seguro}}</h3>
+    </div>
+
+    {{contadorClick}}
+
+  </section>
+
+  <section class="card">
+    <h2>{{ exemploExibicaoTexto }}</h2>
+    <app-button [title]="'Trocar texto'" (clickButton)="onClickButtonExibicaoTexto()"></app-button>
+  </section>
+
+  <section class="buttons">
+    <app-button [title]="'Próximo'" (clickButton)="onClickButton()"></app-button>
+  </section>
+</main>

@@ -1,4 +1,7 @@
-# FrameworkAngular
+# Apresentação Testes Unitários
+
+Este projeto foi utilizado na apresentação sobre testes unitários no Angular.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
 
